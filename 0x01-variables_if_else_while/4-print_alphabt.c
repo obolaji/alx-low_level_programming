@@ -8,15 +8,16 @@
 int main(void)
 {
 	int n = 'a';
-	int x = 'A';
 
 	while (n <= 'z')
 	{
+		if (n == 'q' || n == 'e')
+		{
+			n++;
+			continue;
+		}
 		putchar(n);
-	}
-	while (x <= 'Z')
-	{
-		putchar(x);
+		n++;
 	}
 	putchar('\n');
 	return (0);
