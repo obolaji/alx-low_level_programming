@@ -7,19 +7,12 @@
 
 int main(void)
 {
-	int n = 'a';
-	int x = 'A';
+	int n;
 
-	while (n <= 'z')
+	for(n = 0; n <= 9; n++)
 	{
-		putchar(n);
-		n++;
-	}
-	while (x <= 'Z')
-	{
-		putchar(x);
-		x++;
+		putchar(n + 48);
 	}
 	putchar('\n');
-	return (0);
+	return(0);
 }

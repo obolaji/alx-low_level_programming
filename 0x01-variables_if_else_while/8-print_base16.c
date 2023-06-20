@@ -5,20 +5,18 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int main(void) 
 {
-	int n = 'a';
-	int x = 'A';
+	int x;
+	int y;
 
-	while (n <= 'z')
-	{
-		putchar(n);
-		n++;
-	}
-	while (x <= 'Z')
+	for (x = '0'; x <= '9'; x++)
 	{
 		putchar(x);
-		x++;
+	}
+	for (y = 'a'; y <= 'f'; y++)
+	{
+		putchar(y);
 	}
 	putchar('\n');
 	return (0);

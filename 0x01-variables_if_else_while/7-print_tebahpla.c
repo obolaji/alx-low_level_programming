@@ -7,18 +7,12 @@
 
 int main(void)
 {
-	int n = 'a';
-	int x = 'A';
+	int n = 'z';
 
-	while (n <= 'z')
+	while (n >= 'a')
 	{
 		putchar(n);
-		n++;
-	}
-	while (x <= 'Z')
-	{
-		putchar(x);
-		x++;
+		n--;
 	}
 	putchar('\n');
 	return (0);
