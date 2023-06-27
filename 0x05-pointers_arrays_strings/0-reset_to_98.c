@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * reset_to_98 - updates the value of the variable
+ * pointer points to 98
+ * @n: points to the vairable to update
  */
 
 void reset_to_98(int *n)
