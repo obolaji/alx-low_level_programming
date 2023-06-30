@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _strcmp: compare strings
+ * @s1: first string
+ * @s2: second string
  *
  * Return: Always 0.
  */

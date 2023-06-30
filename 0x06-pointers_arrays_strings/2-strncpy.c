@@ -2,8 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * _strncpy- copies a string
+ * @dest: destination ofcopied string
+ * @src: source of string to be copied
+ * @n: integer
  * Return: Always 0.
  */
 

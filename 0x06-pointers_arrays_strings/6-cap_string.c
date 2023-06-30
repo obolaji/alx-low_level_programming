@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * cap_string - capitalize all words of a string
+ * @k: string to be capitalised
  *
- * Return: Always 0.
+ * Return: String with all characters capitalised
  */
 
 char *cap_string(char *k)

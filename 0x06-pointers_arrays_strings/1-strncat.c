@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * _strncat - concatenate strings and define size
+ * @dest: concatenated string
+ * @src; string to be concatenated
+ * @n: size of string
  * Return: Always 0.
  */
 

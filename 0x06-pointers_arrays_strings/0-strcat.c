@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * _strcat - concatenate 2 strings.
+ * @dest: String concatenated
+ * @src: string to be concatenated
  * Return: Always 0.
  */
 

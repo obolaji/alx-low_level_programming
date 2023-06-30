@@ -3,9 +3,10 @@
 #include <ctype.h>
 
 /**
- * main - check the code
+ * string_troupper - change lowercase to uppercase
+ * @k: string to process
  *
- * Return: Always 0.
+ * Return: String with only uppercase letters
  */
 
 char *string_toupper(char *k)
