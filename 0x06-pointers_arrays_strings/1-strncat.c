@@ -3,7 +3,7 @@
 /**
  * _strncat - concatenate strings and define size
  * @dest: concatenated string
- * @src; string to be concatenated
+ * @src: string to be concatenated
  * @n: size of string
  * Return: Always 0.
  */

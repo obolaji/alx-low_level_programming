@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * string_troupper - change lowercase to uppercase
+ * string_toupper - change lowercase to uppercase
  * @k: string to process
  *
  * Return: String with only uppercase letters
@@ -12,6 +12,7 @@
 char *string_toupper(char *k)
 {
 	int i;
+
 	for (i = 0; k[i] != '\0'; i++)
 	{
 		if (k[i] >= 'a' && k[i] <= 'z')
