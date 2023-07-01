@@ -10,10 +10,10 @@
 char *cap_string(char *k)
 {
 	int i = 0;
-	
+
 	while (k[i])
 	{
-		while (! (k[i] >= 'a' && k[i] <= 'z'))
+		while (!(k[i] >= 'a' && k[i] <= 'z'))
 			i++;
 		if (k[i - 1] == ' ' ||
 		    k[i - 1] == '\t' ||
@@ -33,6 +33,5 @@ char *cap_string(char *k)
 		i++;
 	}
 
-	return(k);
+	return (k);
 }
-			
