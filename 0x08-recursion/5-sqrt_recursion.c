@@ -10,14 +10,14 @@
  * Return: Always 0.
  */
 
-int sqrt1(int i, int j)
+int sqrt1(int j, int i)
 {
 	int sqrt = i * i;
 
-	if (sqrt == j)
-		return (i);
-	else if (sqrt > j)
+	 if (sqrt > j)
 		return (-1);
+	 if (sqrt == j)
+                return (i);
 	return (sqrt1(j, i + 1));
 }
 /**
