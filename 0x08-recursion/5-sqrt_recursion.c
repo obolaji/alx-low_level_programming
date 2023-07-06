@@ -3,7 +3,7 @@
 
 
 /**
- * sqrt - calculate root
+ * sqrt1 - calculate root
  * @i: number that iterates
  * @j: integer
  *
@@ -14,10 +14,10 @@ int sqrt1(int j, int i)
 {
 	int sqrt = i * i;
 
-	 if (sqrt > j)
+	if (sqrt > j)
 		return (-1);
-	 if (sqrt == j)
-                return (i);
+	if (sqrt == j)
+		return (i);
 	return (sqrt1(j, i + 1));
 }
 /**
@@ -29,5 +29,5 @@ int sqrt1(int j, int i)
 
 int _sqrt_recursion(int n)
 {
-        return (sqrt1(n, 1));
+	return (sqrt1(n, 1));
 }
