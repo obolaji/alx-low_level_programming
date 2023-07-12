@@ -16,22 +16,18 @@ char *_strdup(char *str)
 	int k;
 
 	if (str == NULL)
-	{
 		return (NULL);
-	}
 
 	for (k = 0; str[k] != '\0'; k++)
 		;
-	newstr = (char *)malloc(sizeof(char) * (k + 1));
+	newstr = malloc(sizeof(char) * (k + 1));
 
 	if (newstr == NULL)
-	{
 		return (NULL);
-	}
 
 	for (i = 0; newstr[i]; i++)
 		newstr[i] = str[i];
-	newstr[i] = '\0';
+	
 	return (newstr);
 }
 
