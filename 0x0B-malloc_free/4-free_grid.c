@@ -3,8 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for ALX School students.
- *
+ * free_grid - frees a 2 dimensional grid.
+ * @grid: grid
+ * @height: integer
  * Return: Always 0.
  */
 
