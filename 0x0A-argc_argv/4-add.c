@@ -12,7 +12,7 @@
 
 int main(int a, char *b[])
 {
-	int i;
+	int i, j;
 	int k = 0;
 
 	if (a < 2)
@@ -22,16 +22,18 @@ int main(int a, char *b[])
 
 	if (a > 1)
 	{
-		for(i = 1; i <= (a - 1); i++)
+		for (i = 1; i <= (a - 1); i++)
 		{
 			k = k + atoi(b[i]);
+			for (j = 0; b[i][j] != '\0'; j++)
+			{
+				if (b[i][j] < '0' || b[i][j] > '9')
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
 		}
-		if(isdigit(b[i] == 0))
-		{
-			printf("Error\n");
-			return (1);
-		}
-		
 		printf("%d\n", k);
 	}
 	return (0);
