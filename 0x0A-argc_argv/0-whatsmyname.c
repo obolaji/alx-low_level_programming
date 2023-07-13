@@ -3,6 +3,11 @@
 
 /**
  * main - prints the name of the program
+ * @a: int
+ * @b: char
+ *
+ *
+ * Return - 0
  **/
 
 int main(int a, char *b[])
