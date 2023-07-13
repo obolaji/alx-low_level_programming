@@ -11,5 +11,5 @@
 int main(int a, __attribute__((unused)) char **b)
 {
 	printf("%d\n", a - 1);
-	return(0);
+	return (0);
 }
