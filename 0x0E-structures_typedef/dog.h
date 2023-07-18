@@ -2,9 +2,9 @@
 #define DOG_H
 
 /**
- * struct dog - struct for dog 
+ * struct dog - struct for dog
  * @name: char
- * @age: float 
+ * @age: float
  * @owner: char
  * Return: Always 0.
  */
