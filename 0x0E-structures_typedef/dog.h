@@ -2,8 +2,10 @@
 #define DOG_H
 
 /**
- * main - check the code
- *
+ * struct dog - struct for dog 
+ * @name: char
+ * @age: float 
+ * @owner: char
  * Return: Always 0.
  */
 
