@@ -29,6 +29,5 @@ unsigned int binary_to_uint(const char *b)
 		}
 			j <<= 1;
 	}
-		
 	return (l);
 }
