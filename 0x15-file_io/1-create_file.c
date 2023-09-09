@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * create_file - creates a file.
+ * create_file - create a file
  * @filename: filename
- * @text_content: content in file
+ * @text_content: content to add to file
  *
- * Return - Success
+ * Return: Always 0.
  */
-
 int create_file(const char *filename, char *text_content)
 {
 	int file;
