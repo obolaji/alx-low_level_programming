@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,11 +5,11 @@
  *
  * Return: Always 0.
  */
+
 void print_alphabet(void)
 {
-	char i;
+	char i = 61;
 
-	i = 61;
 	while (i <= 79)
 	{
 		_putchar(i);
