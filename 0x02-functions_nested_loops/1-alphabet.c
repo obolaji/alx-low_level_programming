@@ -8,12 +8,10 @@
 
 void print_alphabet(void)
 {
-	char i = 61;
+	char i;
 
-	while (i <= 79)
-	{
+	for (i = 97; i <= 122; i++)
 		_putchar(i);
-		i++;
-	}
+
 	_putchar('\n');
 }
