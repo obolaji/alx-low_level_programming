@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - prints number of arguments passed
+ * main - prints number of arguments
  * @argc: integer
  * @argv: vector
+ *
+ * Return: Always 0.
  */
 
 int main(int argc, char __attribute__((unused)) *argv[])
